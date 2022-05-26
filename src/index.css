@@ -5,6 +5,20 @@
 
 /* create reuseable button component */
 @layer components {
+    .card{
+        align-items: center;
+        background: #1f3c84;
+        background-image: url(https://topship.africa/static/media/patterned-background.6e33b6c40505be92f885.svg);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 0 15px;
+        padding: 20px;
+    }
+    .card-text{
+    @apply   text-white  text-2xl font-bold text-left   py-4 lg:py-5 md:py-7  px-2  md:px-4 flex flex-col md:flex-row
+    }
     .btn {
         background: #fff;
         color: #000;
