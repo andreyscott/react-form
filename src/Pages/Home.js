@@ -1,6 +1,7 @@
 import React from 'react'
 import { BlueBackgrondSection } from '../components/BlueBackgrondSection'
 import Cta from '../components/Cta'
+import { Howitwork } from '../components/Howitwork'
 import { Sectiongrid } from '../components/Sectiongrid'
 import ServiceSection from '../components/ServiceSection'
 
@@ -11,7 +12,7 @@ export const Home = () => {
         <Cta />
         <Sectiongrid />
         <ServiceSection />
-        <BlueBackgrondSection />
+        <Howitwork />
 
     </div>
   )
