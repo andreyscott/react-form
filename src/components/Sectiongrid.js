@@ -4,7 +4,7 @@ export const Sectiongrid = () => {
   return (
       <>
 
-    <div className='flex flex-col justify-around md:flex-row' >
+    <div className='flex flex-col justify-around px-2 md:flex-row' >
     <div className="flex flex-col">
 <div className="max-w-xl bg-hero flex  card">
 {/* text */}
@@ -51,8 +51,8 @@ alt='bag'
     <div className="max-w-xl bg-hero flex flex-col bg-tpurple  card">
 {/* text */}
 <div
- className="card-text h-1/3">
-Trusted by Small and Medium Businesses Worldwide
+ className="card-text  text-lg mb-2 h-1/3">
+Over 5,000 shipments successfully delivered across multiple locations Worldwide
 </div>
 {/* image */}
 <div className="max-w-2xl md:h-2/3  ml-3    pb-16">

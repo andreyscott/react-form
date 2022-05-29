@@ -1,6 +1,8 @@
 import React from 'react'
+import { BlueBackgrondSection } from '../components/BlueBackgrondSection'
 import Cta from '../components/Cta'
 import { Sectiongrid } from '../components/Sectiongrid'
+import ServiceSection from '../components/ServiceSection'
 
 
 export const Home = () => {
@@ -8,6 +10,8 @@ export const Home = () => {
     <div>
         <Cta />
         <Sectiongrid />
+        <ServiceSection />
+        <BlueBackgrondSection />
 
     </div>
   )
