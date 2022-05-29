@@ -37,6 +37,12 @@
     .btny {
        @apply flex-shrink-0 text-lg bg-[#ffd708] text-[#22428f] font-medium py-2 m-3 flex text-center items-center justify-center   rounded-lg min-w-max h-9  w-36   focus:outline-none focus:text-gray-900
     }
+    .list {
+        @apply text-sm py-3 font-normal text-left
+    }
+    .header {
+        @apply text-2xl py-3 font-semibold text-left cursor-pointer
+    }
     .btnb{
     @apply   flex-shrink-0 text-lg text-white bg-[#22428f] font-medium py-2 m-3 flex text-center items-center justify-center   rounded-lg min-w-max h-9  w-36   focus:outline-none focus:text-gray-900
 
