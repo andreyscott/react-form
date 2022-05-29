@@ -54,7 +54,7 @@ function Cta() {
                     Welcome to the Soft life! Use Topship to send items to your customers, friends, and family in Lagos,
                      Abuja, London, Ghana, New York, Dubai and 200+ more cities. Say goodbye to stressful shipping forever!
                 </h3>
-         <div className="flex sm:justify-center md:justify-start">
+         <div className="flex justify-center lg:justify-start">
          <a className="btnb bg-transparent text-black border-2  m-2 border-tblue pt-3 pb-3  h-12 font-bold text-lg md:text-base"
                    href="https://medium.com/"> Learn More</a>
                      <a className="btny m-2 h-12   py-2 font-bold text-lg md:text-base "
