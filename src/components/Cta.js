@@ -45,7 +45,7 @@ function Cta() {
     <div className="w-full pt-10 lg:pt-14 md:pt-12 xl:pt-20 pb-0 px-2  md:px-4 flex flex-col md:flex-row">
         <div className="max-w-2xl md:w-1/2  ml-3    pb-16">
             <div className="max-w-xl ">
-                <h2 className="text-4xl text-tblue font-medium lg:text-5xl md:text-left pb-4  lg:font-semibold md:block xl:text-6xl xl:font-bold ">
+                <h2 className="text-4xl text-center text-tblue font-medium lg:text-5xl md:text-left pb-4  lg:font-semibold md:block xl:text-6xl xl:font-bold ">
                     Send and Receive items from your doorstep to any location in the world
                 </h2>
                
@@ -56,7 +56,7 @@ function Cta() {
                 </h3>
          <div className="flex justify-center lg:justify-start">
          <a className="btnb bg-transparent text-black border-2  m-2 border-tblue pt-3 pb-3  h-12 font-bold text-lg md:text-base"
-                   href="https://medium.com/"> Learn More</a>
+                   href="https://andrey-profile.web.app/"> Learn More</a>
                      <a className="btny m-2 h-12   py-2 font-bold text-lg md:text-base "
                    href="https://medium.com/"> Get Started</a>
                    </div>

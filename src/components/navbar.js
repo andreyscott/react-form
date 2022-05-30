@@ -34,8 +34,8 @@ export default function Example() {
         <body class="h-full">
         ```
       */}
-      <div className="min-h-full">
-        <Disclosure as="nav" className="bg-white border-b-2 shadow-sm">
+      <div className="min-h-full sticky top-0">
+        <Disclosure as="nav" className=" bg-white border-b-2 shadow-sm">
           {({ open }) => (
             <>
               <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
