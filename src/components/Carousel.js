@@ -70,6 +70,15 @@ export default class Carousel extends Component {
             },
           },
           {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              centerMode: true,
+              centerPadding: "15px",
+            },
+          },
+          {
             breakpoint: 320,
             settings: {
               slidesToShow: 1,
@@ -92,12 +101,12 @@ export default class Carousel extends Component {
               {items.map((item = {}, index) => {
                 return (
                   <div
-          className="h-52 max-h-56 w-40 border-2 rounded-lg flex flex-col items-start  justify-evenly py-5 px-3  shadow-lg"
+          className="md:h-52  h-64 md:max-h-56 w-52   max-w-60 border-2 rounded-lg flex flex-col items-start  justify-evenly py-5 px-3  shadow-lg"
                     key={item.type}
                   >
                     <img className='w-11 mt-4 h-11' src={item.icon} alt={item.type} />
 
-                    <p className='text-left font-semibold text-2xl mt-2  pt-3 pb-10  '>{item.type}</p>
+                    <p className='text-left font-semibold text-xl md:text-2xl mt-2  pt-3 pb-10  '>{item.type}</p>
                    
                   </div>
                 )
