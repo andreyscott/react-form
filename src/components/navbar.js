@@ -1,13 +1,13 @@
 import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { BellIcon, MenuIcon, XIcon } from '@heroicons/react/outline'
+import {  MenuIcon, XIcon } from '@heroicons/react/outline'
 
-const user = {
-  name: 'Tom Cook',
-  email: 'tom@example.com',
-  imageUrl:
-  'https://topship.africa/static/media/topship-blue-logo.60f5b066b88bb63ead71af792b89a08d.svg'
-}
+// const user = {
+//   name: 'Tom Cook',
+//   email: 'tom@example.com',
+//   imageUrl:
+//   'https://topship.africa/static/media/topship-blue-logo.60f5b066b88bb63ead71af792b89a08d.svg'
+// }
 const navigation = [
   { name: 'About', href: '/about', current: true },
   { name: 'FAQs', href: '/faq', current: false },

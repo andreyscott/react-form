@@ -65,6 +65,8 @@ function Cta() {
         <div className="max-w-2xl  md:w-1/2  pb-10 mx-4">
         <img
                  src='https://www.designfreelogoonline.com/wp-content/uploads/2016/05/000718-Free-Logo-creator-Free-bag-shopping-logo-maker-03.png'
+ alt='bag'
+
 />
 </div>
     </div>
