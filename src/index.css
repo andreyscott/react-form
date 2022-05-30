@@ -2,7 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.slider-container {
+    max-width: 100vw;
+    width: 100%;
+    overflow: hidden;
+}
 
 .slick-slide{
     margin-left:  15px;

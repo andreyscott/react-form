@@ -41,65 +41,58 @@ export default class Testimonials extends Component {
       },
     ];
 
-    const settings = {
-   
-    infinite: true,
-    centerMode: true,
-    centerPadding: "60px",
-    speed: 500,
-    slidesToShow: 5,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2500,
-
-    
-    responsive: [
-
-      {
-        breakpoint: 1350,
-        settings: {
-
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          centerMode: true,          
-          centerPadding: "30px",
-
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: true,
-          centerPadding: "15px",
-        },
-      },
-      {
-        breakpoint: 320,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerMode: true,
-          centerPadding: "7.5px",
-        },
-      },
-    ],
-  };
-
+    const  settings = {
+        infinite: true,
+        centerMode: true,
+        centerPadding: "60px",
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2500,
+        responsive: [
+          {
+            breakpoint: 1350,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              centerMode: true,
+              centerPadding: "30px",
+            },
+          },
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+              centerMode: true,
+              centerPadding: "15px",
+            },
+          },
+          {
+            breakpoint: 320,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              centerMode: true,
+              centerPadding: "7.5px",
+            },
+          },
+        ],
+      };
     return (
-      <section className="flex p-5 w-full overflow-hidden bg-slate-400">
+      <section className="flex p-5 w-full overflow-hidden ">
      
-        <div className="container skinny taCenter">
+        
           <div className="Testimonials--Slider">
-            <div
-              className="Testimonials--Slider--Quote"
-            />
-            <Slider {...settings}>
+            <Slider
+            className='w-screen '
+            
+             {...settings}>
               {items.map((item = {}, index) => {
                 return (
                   <div
-          className=" mr-5  h-60 w-fit border-2 rounded-lg flex flex-col items-start  justify-evenly py-5 px-3  shadow-lg"
+          className="h-52 max-h-56 w-40 border-2 rounded-lg flex flex-col items-start  justify-evenly py-5 px-3  shadow-lg"
                     key={item.type}
                   >
                     <img className='w-11 mt-4 h-11' src={item.icon} alt={item.type} />
@@ -111,7 +104,6 @@ export default class Testimonials extends Component {
               })}
             </Slider>
           </div>
-        </div>
       </section>
     )
   }
